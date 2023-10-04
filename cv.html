@@ -180,6 +180,9 @@ header h2 {
 .split {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 32px;
+  row-gap: 8px;
 }
 
 .split strong {
@@ -190,15 +193,10 @@ header h2 {
 .email,
 .phone {
   margin-bottom: 10px;
-  width: 50%;
 }
 
 #profiles {
   overflow: hidden;
-}
-
-#profiles .item {
-  width: 50%;
 }
 
 .username{
@@ -213,7 +211,6 @@ header h2 {
 .qualification,
 .area {
   margin-bottom: 10px;
-  width: 30%;
 }
 
 .courses {
@@ -226,8 +223,14 @@ header h2 {
 
 #work,
 #volunteer,
-#projects {
+#projects,
+#education {
   padding-bottom: 5px;
+  border-bottom: 1px var(--seperator-color) solid;
+}
+
+#skills,
+#languages {
   border-bottom: 1px var(--seperator-color) solid;
 }
 
@@ -258,12 +261,6 @@ header h2 {
 
 #skills {
   overflow: hidden;
-}
-
-#languages .item,
-#interests .item,
-#skills .item {
-  width: 50%;
 }
 
 #references,
@@ -331,6 +328,45 @@ header h2 {
 
   <section id="work">
     <h2><span class="text-pink">Exp</span>ériences</h2>
+    <div class="item">
+      <h3 class="work_name">
+        PikaTorrent
+          <img alt="Company logo" class="icon" src=https://www.pikatorrent.com/favicon.ico width="20" height="20" />
+      </h3>
+
+
+      <div class="split">
+      <div class="work_position">
+        Développeur
+      </div>
+
+      <div class="work_date">
+        <span class="startDate">
+          <time datetime="2023-03-01T00:00:00.000Z">Mar 2023</time>
+        </span>
+        <span class="endDate">
+          - Present
+        </span>
+      </div>
+
+      <div class="work_website">
+        <a href="https://www.pikatorrent.com/">https://www.pikatorrent.com/</a>
+      </div>
+      </div>
+
+      <div class="summary">
+        <p>Application open source pour mobile &amp; desktop de partage de fichiers via le protocol BitTorrent.</p>
+      </div>
+      <ul class="highlights">
+        <li>Création d&#39;un binding C/C++ Node.js et React Native pour libtransmission.</li>
+        <li>Mise en place de tests, intégration et déploiement continue sur GitHub Actions</li>
+        <li>Stack expo + tamagui pour cibler le web et mobile natif, et Electron pour le desktop</li>
+        <li>Utilisation de Websocket et WebRTC pour lier l&#39;application mobile &amp; desktop.</li>
+        <li>Publication régulière de nouvelles version sur les canaux de distributions: Google Play Store, Microsoft Store, Flathub.org...</li>
+        <li>Communication sur hackernews, et modifications apportées en fonction des retours utilisateurs.</li>
+        <li>Construction d&#39;une communauté d&#39;utilisateurs sur Discord.</li>
+      </ul>
+    </div>
     <div class="item">
       <h3 class="work_name">
         Dataway
@@ -484,43 +520,6 @@ header h2 {
     </div>
   </section>
 
-  <section id="projects">
-    <h2><span class="text-mint">Pro</span>jets</h2>
-    <div class="item">
-      <h3 class="company">
-        PikaTorrent
-          <img alt="Project logo" class="icon" src=https://www.pikatorrent.com/favicon.ico width="20" height="20" />
-      </h3>
-
-      <div class="split">
-
-      <div class="work_date">
-        <span class="startDate">
-          <time datetime="2023-03-01T00:00:00.000Z">Mar 2023</time>
-        </span>
-        <span class="endDate">
-          - Present
-        </span>
-      </div>
-
-      <div class="work_website">
-        <a href="https://www.pikatorrent.com/">https://www.pikatorrent.com/</a>
-      </div>
-      </div>
-
-      <div class="summary">
-        <p>Application open source pour mobile &amp; desktop de partage de fichiers via le protocol BitTorrent.</p>
-      </div>
-      <ul class="highlights">
-        <li>Création d&#39;un binding C/C++ Node.js et React Native pour libtransmission.</li>
-        <li>Stack expo + tamagui pour cibler le web et mobile natif, et Electron pour le desktop</li>
-        <li>Utilisation de Websocket et WebRTC pour lier l&#39;application mobile &amp; desktop.</li>
-        <li>Publication régulière de nouvelles version sur les canaux de distributions: Google Play Store, Microsoft Store, Flathub.org...</li>
-        <li>Communication sur hackernews, et modifications apportées en fonction des retours utilisateurs.</li>
-        <li>Construction d&#39;une communauté d&#39;utilisateurs sur Discord.</li>
-      </ul>
-    </div>
-  </section>
 
 
   <section id="education">
@@ -588,7 +587,7 @@ header h2 {
   </section>
 
   <section id="skills">
-    <h2><span class="text-yellow">Com</span>pétences</h2>
+    <h2><span class="text-mint">Com</span>pétences</h2>
     <div class="item">
       <div class="name">
         Langages

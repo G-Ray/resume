@@ -29,6 +29,24 @@
   },
   "work": [
     {
+      "name": "PikaTorrent",
+      "iconUrl": "https://www.pikatorrent.com/favicon.ico",
+      "location": "Paris, FR",
+      "startDate": "2023-03-01",
+      "url": "https://www.pikatorrent.com/",
+      "position": "Développeur",
+      "summary": "Application open source pour mobile & desktop de partage de fichiers via le protocol BitTorrent.",
+      "highlights": [
+        "Création d'un binding C/C++ Node.js et React Native pour libtransmission.",
+        "Mise en place de tests, intégration et déploiement continue sur GitHub Actions",
+        "Stack expo + tamagui pour cibler le web et mobile natif, et Electron pour le desktop",
+        "Utilisation de Websocket et WebRTC pour lier l'application mobile & desktop.",
+        "Publication régulière de nouvelles version sur les canaux de distributions: Google Play Store, Microsoft Store, Flathub.org...",
+        "Communication sur hackernews, et modifications apportées en fonction des retours utilisateurs.",
+        "Construction d'une communauté d'utilisateurs sur Discord."
+      ]
+    },
+    {
       "name": "Dataway",
       "iconUrl": "https://www.dataway.ai/favicon.ico",
       "location": "Paris, FR",
@@ -105,21 +123,7 @@
     }
   ],
   "projects": [
-    {
-      "name": "PikaTorrent",
-      "iconUrl": "https://www.pikatorrent.com/favicon.ico",
-      "startDate": "2023-03-01",
-      "description": "Application open source pour mobile & desktop de partage de fichiers via le protocol BitTorrent.",
-      "highlights": [
-        "Création d'un binding C/C++ Node.js et React Native pour libtransmission.",
-        "Stack expo + tamagui pour cibler le web et mobile natif, et Electron pour le desktop",
-        "Utilisation de Websocket et WebRTC pour lier l'application mobile & desktop.",
-        "Publication régulière de nouvelles version sur les canaux de distributions: Google Play Store, Microsoft Store, Flathub.org...",
-        "Communication sur hackernews, et modifications apportées en fonction des retours utilisateurs.",
-        "Construction d'une communauté d'utilisateurs sur Discord."
-      ],
-      "url": "https://www.pikatorrent.com/"
-    }
+    
   ],
   "education": [
     {
