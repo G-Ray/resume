@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+
+  <title>Geoffrey Bonneville - CV</title>
+  <meta name="description" content="Ingénieur logiciel avec 7 ans d&#x27;expérience. Je travaille avec Node.js, React.js, React Native, Electron. Je suis efficace pour trouver des solutions technique, et n&#x27;hésite pas à utiliser des technologies bas niveau lorsque la performance est une priorité.">
+
+  <meta property="og:site_name" content="Geoffrey Bonneville">
+  <meta property="og:title" content="Ingénieur Freelance js / node / react / react-native">
+  <meta property="og:description" content="Ingénieur logiciel avec 7 ans d&#x27;expérience. Je travaille avec Node.js, React.js, React Native, Electron. Je suis efficace pour trouver des solutions technique, et n&#x27;hésite pas à utiliser des technologies bas niveau lorsque la performance est une priorité.">
+
+
+
+  <style>
+  /*! normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/* Variables */
+
+body {
+  --fg-color: #202020;
+  --bg-color: #fcfcfc;
+
+  --header-h1-fg-color: #202020;
+  --header-h2-fg-color: #646464;
+  --header-bg-color: #ffe629;
+  --link-color: #3061A5;
+  --seperator-color: #E2E2E2;
+
+  /* texts colors */
+  --text-blue: #0d74ce;
+  --text-green: #218358;
+  --text-purple:#8145b5;
+  --text-red: #ce2c31;
+  --text-orange: #cc4e00;
+  --text-yellow: #9e6c00;
+  --text-pink: #c2298a;
+  --text-mint:#027864;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --fg-color: #eeeeee;
+    --bg-color: #111111;
+    --header-h1-fg-color: #202020;
+    --header-h2-fg-color: #646464;
+    --header-bg-color: #ffe629;
+    --link-color: #70A1E5;
+    --seperator-color: #939393;
+
+    /* texts colors */
+    --text-blue: #70b8ff;
+    --text-green: #3dd68c;
+    --text-purple:#d19dff;
+    --text-red: #ff9592;
+    --text-orange: #ffa057;
+    --text-yellow: #f5e147;
+    --text-pink: #ff8dcc;
+    --text-mint:#58d5ba;
+  }
+}
+
+.text-blue {
+  color: var(--text-blue);
+}
+
+.text-green {
+  color: var(--text-green);
+}
+
+.text-purple {
+  color: var(--text-purple);
+}
+
+.text-red {
+  color: var(--text-red);
+}
+
+.text-orange {
+  color: var(--text-orange);
+}
+
+.text-yellow {
+  color: var(--text-yellow);
+}
+
+.text-pink {
+  color: var(--text-pink);
+}
+
+.text-mint {
+  color: var(--text-mint);
+}
+
+/* Page CSS */
+
+body {
+  color: var(--fg-color);
+  background: var(--bg-color);
+  font-size: 1em;
+  font-family: system-ui;
+}
+
+em {
+  color: #999;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+ul {
+  margin-bottom: 0;
+}
+section {
+  margin-bottom: 2em;
+}
+
+blockquote {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.item {
+  break-inside: avoid;
+}
+
+header {
+  background: var(--header-bg-color);
+  padding: 32px;
+  margin-bottom: 32px;
+}
+
+header h1 {
+  color: var(--header-h1-fg-color);
+  max-width: 772px;
+  margin: 0 auto;
+}
+
+header h2 {
+  color: var(--header-h2-fg-color);
+  font-size: 1em;
+  max-width: 772px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 772px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+#basics {
+  margin-bottom: 10px;
+  border-bottom: 1px var(--seperator-color) solid;
+}
+#basics h3 {
+  margin-bottom: 10px;
+}
+
+.contact {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px var(--seperator-color) solid;
+}
+
+.contact h3 {
+  padding-bottom: 10px;
+}
+
+.split {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.split strong {
+  margin-right: 2em;
+}
+
+.website,
+.email,
+.phone {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+#profiles {
+  overflow: hidden;
+}
+
+#profiles .item {
+  width: 50%;
+}
+
+.username{
+  margin-top: 10px;
+}
+
+.work_date,
+.work_position,
+.work_website,
+.institution,
+.study_date,
+.qualification,
+.area {
+  margin-bottom: 10px;
+  width: 30%;
+}
+
+.courses {
+  clear: both;
+}
+
+.dissertation {
+  margin-top: 10px;
+}
+
+#work,
+#volunteer,
+#projects {
+  padding-bottom: 5px;
+  border-bottom: 1px var(--seperator-color) solid;
+}
+
+#work .item {
+  break-inside: unset;
+}
+
+#work .item,
+#volunteer .item,
+#projects .item {
+  margin: 25px 0;
+}
+
+#skills {
+  margin-bottom: 10px;
+  border-bottom: 1px var(--seperator-color) solid;
+  padding-bottom: 5px;
+}
+
+#skills .item,
+#languages .item {
+  margin: 0 0 25px 0;
+}
+
+#interests .item {
+  margin-bottom: 25px;
+}
+
+#skills {
+  overflow: hidden;
+}
+
+#languages .item,
+#interests .item,
+#skills .item {
+  width: 50%;
+}
+
+#references,
+#interests {
+  clear: both;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+  </style>
+
+  </head>
+  <body>
+
+  <header>
+  <h1>Geoffrey Bonneville</h1>
+  <h2>Ingénieur Freelance js / node / react / react-native</h2>
+  </header>
+
+  <div id="content" class="container">
+  <section id="basics">
+    <div class="contact">
+    <h2><span class="text-blue">Coo</span>rdonnées</h2>
+    <div class="split">
+    <div class="email">
+      <strong>Email</strong>
+      <a href="mailto:geoffrey.bonneville@gmail.com">geoffrey.bonneville@gmail.com</a>
+    </div>
+    <div class="phone">
+      <strong>Téléphone</strong>
+      <a href="tel:+33 6 01 78 38 88">+33 6 01 78 38 88</a>
+    </div>
+    </div>
+    </div>
+    <div class="summary">
+      <h2><span class="text-purple">Pré</span>sentation</h2>
+      <p>Ingénieur logiciel avec 7 ans d&#39;expérience. Je travaille avec Node.js, React.js, React Native, Electron. Je suis efficace pour trouver des solutions technique, et n&#39;hésite pas à utiliser des technologies bas niveau lorsque la performance est une priorité.</p>
+    </div>
+    <section id="profiles" class="split">
+      <div class="item">
+        <strong class="network">
+          Github
+        </strong>
+        <div>
+          <a href="https://github.com/G-Ray">
+              G-Ray
+          </a>
+        </div>
+      </div>
+      <div class="item">
+        <strong class="network">
+          LinkedIn
+        </strong>
+        <div>
+          <a href="https://www.linkedin.com/in/gbonneville/">
+              gbonneville
+          </a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="work">
+    <h2><span class="text-pink">Exp</span>ériences</h2>
+    <div class="item">
+      <h3 class="work_name">
+        Dataway
+          <img alt="Company logo" class="icon" src=https://www.dataway.ai/favicon.ico width="20" height="20" />
+      </h3>
+
+
+      <div class="split">
+      <div class="work_position">
+        Associé développeur
+      </div>
+
+      <div class="work_date">
+        <span class="startDate">
+          <time datetime="2019-12-01T00:00:00.000Z">Dec 2019</time>
+        </span>
+        <span class="endDate">
+          - <time datetime="2023-02-15T00:00:00.000Z">Feb 2023</time>
+        </span>
+      </div>
+
+      <div class="work_website">
+        <a href="https://www.dataway.ai">https://www.dataway.ai</a>
+      </div>
+      </div>
+
+      <div class="summary">
+        <p>Développement d&#39;une plateforme ERP en SASS. Arrêt du projet en février 2023.</p>
+      </div>
+      <ul class="highlights">
+        <li>Choix de technologies pour conserver une indépendance et autoriser des déploiements on-premise.</li>
+        <li>Architecture et développement de la plateforme sur stack Express.js/MongoDB/React.js/Python/Elasticsearch.</li>
+        <li>Développement d&#39;une application complémentaire avec expo/react-native.</li>
+        <li>Mise en place et développement de tests end-to-end avec Cypress.</li>
+        <li>Gestion d&#39;un cluster Kubernetes et déploiement des services en SASS: gestion de sous-domaines, certificats, séparation des données clients...</li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3 class="work_name">
+        Qwant
+          <img alt="Company logo" class="icon" src=https://www.qwant.com/favicon.ico width="20" height="20" />
+      </h3>
+
+
+      <div class="split">
+      <div class="work_position">
+        Ingénieur frontend
+      </div>
+
+      <div class="work_date">
+        <span class="startDate">
+          <time datetime="2018-03-01T00:00:00.000Z">Mar 2018</time>
+        </span>
+        <span class="endDate">
+          - <time datetime="2021-10-28T00:00:00.000Z">Oct 2021</time>
+        </span>
+      </div>
+
+      <div class="work_website">
+        <a href="https://www.qwant.com">https://www.qwant.com</a>
+      </div>
+      </div>
+
+      <div class="summary">
+        <p>R&amp;D sur Masq, projet de décentralisation et sécurisation des données personnelles + Qwant Search &amp; Maps.</p>
+      </div>
+      <ul class="highlights">
+        <li>Propositions et utilisation de technologies p2p via WebRTC pour établir des communication en peer-to-peer entre appareils.</li>
+        <li>Mise en place de l&#39;architecture et prise de responsabilités sur l&#39;application web.</li>
+        <li>Mise en place de linters de code, eslint/prettier pour les différents repos.</li>
+        <li>Mise en place et développement de tests par snapshots avec Jest.</li>
+        <li>Participation aux code reviews et pair programming.</li>
+        <li>Implémentation from scratch en SASS des designs fournis par l&#39;équipe en charge des produits.</li>
+        <li>Qwant Maps: participation à la refonte de l&#39;interface en React.js, participation à des scrum poker.</li>
+        <li>Qwant Search: développement d&#39;un microservice en Rust performant et léger pour categoriser des sites web. Développement en TTD (≃ 1mois).</li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3 class="work_name">
+        GetQuanty
+          <img alt="Company logo" class="icon" src=https://uploads-ssl.webflow.com/64390b225d736d99445ca92e/6458fa336647ec83ac45320f_favicon.ico width="20" height="20" />
+      </h3>
+
+
+      <div class="split">
+      <div class="work_position">
+        Developpeur fullstack Node.js/Angular
+      </div>
+
+      <div class="work_date">
+        <span class="startDate">
+          <time datetime="2016-09-01T00:00:00.000Z">Sep 2016</time>
+        </span>
+        <span class="endDate">
+          - <time datetime="2018-03-01T00:00:00.000Z">Mar 2018</time>
+        </span>
+      </div>
+
+      <div class="work_website">
+        <a href="https://www.getquanty.com">https://www.getquanty.com</a>
+      </div>
+      </div>
+
+      <div class="summary">
+        <p>Développement fullstack, avec express et Angular.</p>
+      </div>
+      <ul class="highlights">
+        <li>Design et développement d&#39;APIs avec Express.js.</li>
+        <li>Participation à la migration de Angular 1 vers Angular 2+ en TypeScript, et refactorisation du code.</li>
+        <li>Proposition et implémentations de schémas de données dans MongoDB, ElasticSearch et CassandraDB.</li>
+        <li>Participation à la création de tests E2E pour stabiliser la plateforme, et amélioration de la CI en parallélisant les tests.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3 class="work_name">
+        Open Wide (Rachetée par Smile)
+          <img alt="Company logo" class="icon" src=https://www.smile.eu/themes/custom/smileeu/favicon.ico width="20" height="20" />
+      </h3>
+
+
+      <div class="split">
+      <div class="work_position">
+        Stage de fin d&#x27;étude en R&amp;D.
+      </div>
+
+      <div class="work_date">
+        <span class="startDate">
+          <time datetime="2016-08-31T00:00:00.000Z">Aug 2016</time>
+        </span>
+        <span class="endDate">
+          - <time datetime="2016-03-01T00:00:00.000Z">Mar 2016</time>
+        </span>
+      </div>
+
+      <div class="work_website">
+        <a href="https://www.smile.eu">https://www.smile.eu</a>
+      </div>
+      </div>
+
+      <div class="summary">
+        <p>Développement de PoC avec un noyau Linux temps réel sur Android, sur plateforme embarquée ARM.</p>
+      </div>
+      <ul class="highlights">
+        <li>Ajout du support d&#39;interfaces industrielles(I2C, GPIO, etc...) et d&#39;un kernel temps-réel (Xenomai) dans Android.</li>
+        <li>Réalisation de benchmarks entre OpenPOWERLINK, sans, et avec RTnet.</li>
+        <li>Modification du code source d&#39;Android (C/Java) pour étendre les fonctionnalités. Intégration de la bibliothèque glibc.</li>
+        <li>Acquisition d&#39;expérience en C/Java/Android(AOSP), compilation de noyaux Linux en cross-compilation, modificaitons de modules et drivers.</li>
+        <li>Réalisation d&#39;applications de tests avec Android 6.0 sur Beaglebone black. Avec un noyau linux 4.1 + Xenomai 3.x.</li>
+        <li>Rédaction d&#39;un article paru dans le magazine Open Silicium présentant une partie des travaux.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2><span class="text-mint">Pro</span>jets</h2>
+    <div class="item">
+      <h3 class="company">
+        PikaTorrent
+          <img alt="Project logo" class="icon" src=https://www.pikatorrent.com/favicon.ico width="20" height="20" />
+      </h3>
+
+      <div class="split">
+
+      <div class="work_date">
+        <span class="startDate">
+          <time datetime="2023-03-01T00:00:00.000Z">Mar 2023</time>
+        </span>
+        <span class="endDate">
+          - Present
+        </span>
+      </div>
+
+      <div class="work_website">
+        <a href="https://www.pikatorrent.com/">https://www.pikatorrent.com/</a>
+      </div>
+      </div>
+
+      <div class="summary">
+        <p>Application open source pour mobile &amp; desktop de partage de fichiers via le protocol BitTorrent.</p>
+      </div>
+      <ul class="highlights">
+        <li>Création d&#39;un binding C/C++ Node.js et React Native pour libtransmission.</li>
+        <li>Stack expo + tamagui pour cibler le web et mobile natif, et Electron pour le desktop</li>
+        <li>Utilisation de Websocket et WebRTC pour lier l&#39;application mobile &amp; desktop.</li>
+        <li>Publication régulière de nouvelles version sur les canaux de distributions: Google Play Store, Microsoft Store, Flathub.org...</li>
+        <li>Communication sur hackernews, et modifications apportées en fonction des retours utilisateurs.</li>
+        <li>Construction d&#39;une communauté d&#39;utilisateurs sur Discord.</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section id="education">
+    <h2><span class="text-red">Dip</span>lômes</h2>
+    <div class="item">
+
+      <div class="institution">
+        Ecole d&#x27;Ingénieur Denis Diderot (EIDD)
+          <img alt="Établissement logo" class="icon" src=https://u-paris.fr/eidd/wp-content/uploads/sites/26/2021/07/Universite_Paris_Favicon.png width="20" height="20" />
+      </div>
+
+      <div class="split">
+      <div  class="area">
+        <strong>Informatique, Spécialité Systèmes informatiques embarqués</strong>
+      </div>
+
+
+      <div class="study_date">
+        <span class="startDate">
+          <time datetime="2013-09-01T00:00:00.000Z">Sep 2013</time>
+        </span>
+        <span class="endDate">
+          - <time datetime="2016-09-01T00:00:00.000Z">Sep 2016</time>
+        </span>
+      </div>
+
+      <div class="work_website">
+        <a href="https://u-paris.fr/eidd">https://u-paris.fr/eidd</a>
+      </div>
+      </div>
+
+
+
+    </div>
+    <div class="item">
+
+      <div class="institution">
+        IUT de Paris Rives de Seine (ex Paris Descartes)
+          <img alt="Établissement logo" class="icon" src=https://u-paris.fr/eidd/wp-content/uploads/sites/26/2021/07/Universite_Paris_Favicon.png width="20" height="20" />
+      </div>
+
+      <div class="split">
+      <div  class="area">
+        <strong>Informatique</strong>
+      </div>
+
+
+      <div class="study_date">
+        <span class="startDate">
+          <time datetime="2011-09-01T00:00:00.000Z">Sep 2011</time>
+        </span>
+        <span class="endDate">
+          - <time datetime="2013-06-01T00:00:00.000Z">Jun 2013</time>
+        </span>
+      </div>
+
+      <div class="work_website">
+        <a href="https://iutparis-seine.u-paris.fr">https://iutparis-seine.u-paris.fr</a>
+      </div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2><span class="text-yellow">Com</span>pétences</h2>
+    <div class="item">
+      <div class="name">
+        Langages
+      </div>
+      <ul class="keywords">
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>C/C++</li>
+        <li>Python</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="name">
+        Web, desktop &amp; mobile
+      </div>
+      <ul class="keywords">
+        <li>React.js</li>
+        <li>React Native (+Expo)</li>
+        <li>Electron</li>
+        <li>Webpack</li>
+        <li>Metro bundler</li>
+        <li>Websocket</li>
+        <li>WebRTC</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="name">
+        Backend
+      </div>
+      <ul class="keywords">
+        <li>Express.js</li>
+        <li>MongoDB</li>
+        <li>Elasticsearch</li>
+        <li>Apache Cassandra</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="name">
+        Admininistration &amp; déploiement
+      </div>
+      <ul class="keywords">
+        <li>Docker/Podman</li>
+        <li>Kubernetes</li>
+        <li>Linux</li>
+        <li>CI/CD</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="languages">
+    <h2><span class="text-orange">Lan</span>gues</h2>
+    <div class="item">
+      <div class="language">
+        Français
+      </div>
+      <div class="level">
+        <em>Langue native</em>
+      </div>
+    </div>
+    <div class="item">
+      <div class="language">
+        Anglais
+      </div>
+      <div class="level">
+        <em>Niveau professionnel</em>
+      </div>
+    </div>
+  </section>
+
+  <section id="interests">
+    <h2><span class="text-green">Cen</span>tres d'intérêt</h2>
+    <div class="item">
+      <div class="name">
+        Badminton
+      </div>
+    </div>
+    <div class="item">
+      <div class="name">
+        Apprentissage de la guitare électrique
+      </div>
+    </div>
+  </section>
+
+
+  </div>
+
+  <script>
+    console.log('Theme made with 💕 using JSON Resume and Handlebars!\nhttps://github.com/jsonresume/jsonresume-theme-class')
+  </script>
+  </body>
+</html>

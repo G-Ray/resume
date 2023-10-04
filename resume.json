@@ -1,0 +1,196 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Geoffrey Bonneville",
+    "label": "Ingénieur Freelance js / node / react / react-native",
+    "image": "",
+    "email": "geoffrey.bonneville@gmail.com",
+    "phone": "+33 6 01 78 38 88",
+    "summary": "Ingénieur logiciel avec 7 ans d'expérience. Je travaille avec Node.js, React.js, React Native, Electron. Je suis efficace pour trouver des solutions technique, et n'hésite pas à utiliser des technologies bas niveau lorsque la performance est une priorité.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Paris",
+      "countryCode": "FR",
+      "region": "Île-de-France"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "G-Ray",
+        "url": "https://github.com/G-Ray"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "gbonneville",
+        "url": "https://www.linkedin.com/in/gbonneville/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Dataway",
+      "iconUrl": "https://www.dataway.ai/favicon.ico",
+      "location": "Paris, FR",
+      "description": "Projet de création d'entreprise avec un associé",
+      "position": "Associé développeur",
+      "url": "https://www.dataway.ai",
+      "startDate": "2019-12-01",
+      "endDate": "2023-02-15",
+      "summary": "Développement d'une plateforme ERP en SASS. Arrêt du projet en février 2023.",
+      "highlights": [
+        "Choix de technologies pour conserver une indépendance et autoriser des déploiements on-premise.",
+        "Architecture et développement de la plateforme sur stack Express.js/MongoDB/React.js/Python/Elasticsearch.",
+        "Développement d'une application complémentaire avec expo/react-native.",
+        "Mise en place et développement de tests end-to-end avec Cypress.",
+        "Gestion d'un cluster Kubernetes et déploiement des services en SASS: gestion de sous-domaines, certificats, séparation des données clients..."
+      ]
+    },
+    {
+      "name": "Qwant",
+      "iconUrl": "https://www.qwant.com/favicon.ico",
+      "location": "Paris, FR",
+      "description": "Ingénieur frontend",
+      "position": "Ingénieur frontend",
+      "url": "https://www.qwant.com",
+      "startDate": "2018-03-01",
+      "endDate": "2021-10-28",
+      "summary": "R&D sur Masq, projet de décentralisation et sécurisation des données personnelles + Qwant Search & Maps.",
+      "highlights": [
+        "Propositions et utilisation de technologies p2p via WebRTC pour établir des communication en peer-to-peer entre appareils.",
+        "Mise en place de l'architecture et prise de responsabilités sur l'application web.",
+        "Mise en place de linters de code, eslint/prettier pour les différents repos.",
+        "Mise en place et développement de tests par snapshots avec Jest.",
+        "Participation aux code reviews et pair programming.",
+        "Implémentation from scratch en SASS des designs fournis par l'équipe en charge des produits.",
+        "Qwant Maps: participation à la refonte de l'interface en React.js, participation à des scrum poker.",
+        "Qwant Search: développement d'un microservice en Rust performant et léger pour categoriser des sites web. Développement en TTD (≃ 1mois)."
+      ]
+    },
+    {
+      "name": "GetQuanty",
+      "iconUrl": "https://uploads-ssl.webflow.com/64390b225d736d99445ca92e/6458fa336647ec83ac45320f_favicon.ico",
+      "location": "Paris, FR",
+      "description": "Developpeur fullstack Node.js/Angular",
+      "position": "Developpeur fullstack Node.js/Angular",
+      "url": "https://www.getquanty.com",
+      "startDate": "2016-09-01",
+      "endDate": "2018-03-01",
+      "summary": "Développement fullstack, avec express et Angular.",
+      "highlights": [
+        "Design et développement d'APIs avec Express.js.",
+        "Participation à la migration de Angular 1 vers Angular 2+ en TypeScript, et refactorisation du code.",
+        "Proposition et implémentations de schémas de données dans MongoDB, ElasticSearch et CassandraDB.",
+        "Participation à la création de tests E2E pour stabiliser la plateforme, et amélioration de la CI en parallélisant les tests."
+      ]
+    },
+    {
+      "name": "Open Wide (Rachetée par Smile)",
+      "iconUrl": "https://www.smile.eu/themes/custom/smileeu/favicon.ico",
+      "location": "Paris, FR",
+      "description": "Développement d'un PoC temps réel sur Android/Linux embarqué.",
+      "position": "Stage de fin d'étude en R&D.",
+      "url": "https://www.smile.eu",
+      "startDate": "2016-08-31",
+      "endDate": "2016-03-01",
+      "summary": "Développement de PoC avec un noyau Linux temps réel sur Android, sur plateforme embarquée ARM.",
+      "highlights": [
+        "Ajout du support d'interfaces industrielles(I2C, GPIO, etc...) et d'un kernel temps-réel (Xenomai) dans Android.",
+        "Réalisation de benchmarks entre OpenPOWERLINK, sans, et avec RTnet.",
+        "Modification du code source d'Android (C/Java) pour étendre les fonctionnalités. Intégration de la bibliothèque glibc.",
+        "Acquisition d'expérience en C/Java/Android(AOSP), compilation de noyaux Linux en cross-compilation, modificaitons de modules et drivers.",
+        "Réalisation d'applications de tests avec Android 6.0 sur Beaglebone black. Avec un noyau linux 4.1 + Xenomai 3.x.",
+        "Rédaction d'un article paru dans le magazine Open Silicium présentant une partie des travaux."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "PikaTorrent",
+      "iconUrl": "https://www.pikatorrent.com/favicon.ico",
+      "startDate": "2023-03-01",
+      "description": "Application open source pour mobile & desktop de partage de fichiers via le protocol BitTorrent.",
+      "highlights": [
+        "Création d'un binding C/C++ Node.js et React Native pour libtransmission.",
+        "Stack expo + tamagui pour cibler le web et mobile natif, et Electron pour le desktop",
+        "Utilisation de Websocket et WebRTC pour lier l'application mobile & desktop.",
+        "Publication régulière de nouvelles version sur les canaux de distributions: Google Play Store, Microsoft Store, Flathub.org...",
+        "Communication sur hackernews, et modifications apportées en fonction des retours utilisateurs.",
+        "Construction d'une communauté d'utilisateurs sur Discord."
+      ],
+      "url": "https://www.pikatorrent.com/"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ecole d'Ingénieur Denis Diderot (EIDD)",
+      "iconUrl": "https://u-paris.fr/eidd/wp-content/uploads/sites/26/2021/07/Universite_Paris_Favicon.png",
+      "url": "https://u-paris.fr/eidd",
+      "area": "Informatique, Spécialité Systèmes informatiques embarqués",
+      "studyType": "Diplôme d'ingénieur",
+      "startDate": "2013-09-01",
+      "endDate": "2016-09-01"
+    },
+    {
+      "institution": "IUT de Paris Rives de Seine (ex Paris Descartes)",
+      "iconUrl": "https://u-paris.fr/eidd/wp-content/uploads/sites/26/2021/07/Universite_Paris_Favicon.png",
+      "url": "https://iutparis-seine.u-paris.fr",
+      "area": "Informatique",
+      "studyType": "DUT",
+      "startDate": "2011-09-01",
+      "endDate": "2013-06-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Langages",
+      "keywords": ["JavaScript", "TypeScript", "HTML", "CSS", "C/C++", "Python"]
+    },
+    {
+      "name": "Web, desktop & mobile",
+      "keywords": [
+        "React.js",
+        "React Native (+Expo)",
+        "Electron",
+        "Webpack",
+        "Metro bundler",
+        "Websocket",
+        "WebRTC"
+      ]
+    },
+    {
+      "name": "Backend",
+      "keywords": [
+        "Express.js",
+        "MongoDB",
+        "Elasticsearch",
+        "Apache Cassandra"
+      ]
+    },
+    {
+      "name": "Admininistration & déploiement",
+      "keywords": ["Docker/Podman", "Kubernetes", "Linux", "CI/CD"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Langue native"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Niveau professionnel"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Badminton"
+    },
+    {
+      "name": "Apprentissage de la guitare électrique"
+    }
+  ],
+  "meta": {
+    "theme": "@jsonresume/jsonresume-theme-class"
+  }
+}

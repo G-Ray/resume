@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+
+  {{#resume.basics}}
+  <title>{{name}} - CV</title>
+  <meta name="description" content="{{summary}}">
+
+  <meta property="og:site_name" content="{{name}}">
+  <meta property="og:title" content="{{label}}">
+  <meta property="og:description" content="{{summary}}">
+
+  {{#if image}}
+  <link rel="icon" href="{{image}}">
+  <meta property="og:image" content="{{image}}">
+  <meta property="og:image:alt" content="Avatar of {{name}}.">
+  {{/if}}
+  {{/resume.basics}}
+
+  {{#resume.custom}}
+  {{#if twitterHandle}}
+  <meta name="twitter:site" content="{{twitterHandle}}">
+  {{/if}}
+  {{/resume.custom}}
+
+  <style>
+  {{{css}}}
+  </style>
+
+  </head>
+  <body>
+
+  {{#resume.basics}}
+  <header>
+  <h1>{{name}}</h1>
+  {{#if label}}
+  <h2>{{label}}</h2>
+  {{/if}}
+  </header>
+
+  <div id="content" class="container">
+  <section id="basics">
+    <div class="contact">
+    <h2><span class="text-blue">Coo</span>rdonnées</h2>
+    <div class="split">
+    {{#if url}}
+    <div class="website">
+      <strong>Website</strong>
+      <a href="{{url}}">{{url}}</a>
+    </div>
+    {{else if website}}
+    <div class="website">
+      <strong>Website</strong>
+      <a href="{{website}}">{{website}}</a>
+    </div>
+    {{/if}}
+    {{#if email}}
+    <div class="email">
+      <strong>Email</strong>
+      <a href="mailto:{{email}}">{{email}}</a>
+    </div>
+    {{/if}}
+    {{#if phone}}
+    <div class="phone">
+      <strong>Téléphone</strong>
+      <a href="tel:{{phone}}">{{phone}}</a>
+    </div>
+    {{/if}}
+    </div>
+    </div>
+    {{#if summary}}
+    <div class="summary">
+      <h2><span class="text-purple">Pré</span>sentation</h2>
+      <p>{{{markdown summary}}}</p>
+    </div>
+    {{/if}}
+    {{#if profiles.length}}
+    <section id="profiles" class="split">
+      {{#each profiles}}
+      <div class="item">
+        {{#if network}}
+        <strong class="network">
+          {{network}}
+        </strong>
+        {{/if}}
+        <div>
+          {{#if url}}
+          <a href="{{url}}">
+            {{#if username}}
+              {{username}}
+            {{else}}
+              {{url}}
+            {{/if}}
+          </a>
+          {{else}}
+          <span>
+            {{username}}
+          </span>
+          {{/if}}
+        </div>
+      </div>
+      {{/each}}
+    </section>
+    {{/if}}
+  </section>
+  {{/resume.basics}}
+
+  {{#if resume.work.length}}
+  <section id="work">
+    <h2><span class="text-pink">Exp</span>ériences</h2>
+    {{#each resume.work}}
+    <div class="item">
+      {{#if name}}
+      <h3 class="work_name">
+        {{name}}
+        {{#if iconUrl}}
+          <img alt="Company logo" class="icon" src={{iconUrl}} width="20" height="20" />
+        {{/if}}
+      </h3>
+      {{else if company}}
+      <h3 class="work_name">
+        {{company}}
+      </h3>
+      {{/if}}
+
+
+      <div class="split">
+      {{#if position}}
+      <div class="work_position">
+        {{position}}
+      </div>
+      {{/if}}
+
+      <div class="work_date">
+        {{#if startDate}}
+        <span class="startDate">
+          {{{date startDate}}}
+        </span>
+        <span class="endDate">
+          - {{{date endDate}}}
+        </span>
+        {{/if}}
+      </div>
+
+      {{#if url}}
+      <div class="work_website">
+        <a href="{{url}}">{{url}}</a>
+      </div>
+      {{else if website}}
+      <div class="work_website">
+        <a href="{{website}}">{{website}}</a>
+      </div>
+      {{/if}}
+      </div>
+
+      {{#if summary}}
+      <div class="summary">
+        <p>{{{markdown summary}}}</p>
+      </div>
+      {{/if}}
+      {{#if highlights.length}}
+      <ul class="highlights">
+        {{#each highlights}}
+        <li>{{{markdown .}}}</li>
+        {{/each}}
+      </ul>
+      {{/if}}
+    </div>
+    {{/each}}
+  </section>
+  {{/if}}
+
+  {{#if resume.projects.length}}
+  <section id="projects">
+    <h2><span class="text-mint">Pro</span>jets</h2>
+    {{#each resume.projects}}
+    <div class="item">
+      {{#if name}}
+      <h3 class="company">
+        {{name}}
+        {{#if iconUrl}}
+          <img alt="Project logo" class="icon" src={{iconUrl}} width="20" height="20" />
+        {{/if}}
+      </h3>
+      {{/if}}
+
+      <div class="split">
+      {{#if position}}
+      <div class="work_position">
+        {{position}}
+      </div>
+      {{/if}}
+
+      <div class="work_date">
+        {{#if startDate}}
+        <span class="startDate">
+          {{{date startDate}}}
+        </span>
+        <span class="endDate">
+          - {{{date endDate}}}
+        </span>
+        {{/if}}
+      </div>
+
+      {{#if url}}
+      <div class="work_website">
+        <a href="{{url}}">{{url}}</a>
+      </div>
+      {{else if website}}
+      <div class="work_website">
+        <a href="{{website}}">{{website}}</a>
+      </div>
+      {{/if}}
+      </div>
+
+      {{#if description}}
+      <div class="summary">
+        <p>{{{markdown description}}}</p>
+      </div>
+      {{/if}}
+      {{#if highlights.length}}
+      <ul class="highlights">
+        {{#each highlights}}
+        <li>{{{markdown .}}}</li>
+        {{/each}}
+      </ul>
+      {{/if}}
+    </div>
+    {{/each}}
+  </section>
+  {{/if}}
+
+  {{#if resume.volunteer.length}}
+  <section id="volunteer">
+    <h2>Volunteer</h2>
+    {{#each resume.volunteer}}
+    <div class="item">
+      {{#if organization}}
+      <h3 class="company">
+        {{organization}}
+      </h3>
+      {{/if}}
+
+      <div class="split">
+      {{#if position}}
+      <div class="work_position">
+        {{position}}
+      </div>
+      {{/if}}
+
+      <div class="work_date">
+        {{#if startDate}}
+        <span class="startDate">
+          {{{date startDate}}}
+        </span>
+        <span class="endDate">
+          - {{{date endDate}}}
+        </span>
+        {{/if}}
+      </div>
+
+      {{#if url}}
+      <div class="work_website">
+        <a href="{{url}}">{{url}}</a>
+      </div>
+      {{else if website}}
+      <div class="work_website">
+        <a href="{{website}}">{{website}}</a>
+      </div>
+      {{/if}}
+      </div>
+
+      {{#if summary}}
+      <div class="summary">
+        <p>{{{markdown summary}}}</p>
+      </div>
+      {{/if}}
+      {{#if highlights.length}}
+      <ul class="highlights">
+        {{#each highlights}}
+        <li>{{{markdown .}}}</li>
+        {{/each}}
+      </ul>
+      {{/if}}
+    </div>
+    {{/each}}
+  </section>
+  {{/if}}
+
+  {{#if resume.education.length}}
+  <section id="education">
+    <h2><span class="text-red">Dip</span>lômes</h2>
+    {{#each resume.education}}
+    <div class="item">
+
+      {{#if institution}}
+      <div class="institution">
+        {{institution}}
+        {{#if iconUrl}}
+          <img alt="Établissement logo" class="icon" src={{iconUrl}} width="20" height="20" />
+        {{/if}}
+      </div>
+      {{/if}}
+
+      <div class="split">
+      {{#if area}}
+      <div  class="area">
+        <strong>{{area}}</strong>
+      </div>
+      {{/if}}
+
+
+      <div class="study_date">
+        {{#if startDate}}
+        <span class="startDate">
+          {{{date startDate}}}
+        </span>
+        <span class="endDate">
+          - {{{date endDate}}}
+        </span>
+        {{/if}}
+      </div>
+
+      {{#if url}}
+      <div class="work_website">
+        <a href="{{url}}">{{url}}</a>
+      </div>
+      {{/if}}
+      </div>
+
+      {{#if qualification}}
+      <div class="qualification">
+        {{qualification}}
+      </div>
+      {{/if}}
+
+      {{#if courses.length}}
+      <ul class="courses">
+        {{#each courses}}
+        <li>{{.}}</li>
+        {{/each}}
+      </ul>
+      {{/if}}
+
+      {{#if dissertation}}
+      <div class="dissertation">
+        <span>Dissertation: </span>{{dissertation}}
+      </div>
+      {{/if}}
+    </div>
+    {{/each}}
+  </section>
+  {{/if}}
+
+  {{#if resume.skills.length}}
+  <section id="skills">
+    <h2><span class="text-yellow">Com</span>pétences</h2>
+    {{#each resume.skills}}
+    <div class="item">
+      {{#if name}}
+      <div class="name">
+        {{name}}
+      </div>
+      {{/if}}
+      {{#if level}}
+      <div class="level">
+        <em>{{level}}</em>
+      </div>
+      {{/if}}
+      {{#if keywords.length}}
+      <ul class="keywords">
+        {{#each keywords}}
+        <li>{{.}}</li>
+        {{/each}}
+      </ul>
+      {{/if}}
+    </div>
+    {{/each}}
+  </section>
+  {{/if}}
+
+  {{#if resume.languages.length}}
+  <section id="languages">
+    <h2><span class="text-orange">Lan</span>gues</h2>
+    {{#each resume.languages}}
+    <div class="item">
+      {{#if language}}
+      <div class="language">
+        {{language}}
+      </div>
+      {{/if}}
+      {{#if fluency}}
+      <div class="level">
+        <em>{{fluency}}</em>
+      </div>
+      {{/if}}
+    </div>
+    {{/each}}
+  </section>
+  {{/if}}
+
+  {{#if resume.interests.length}}
+  <section id="interests">
+    <h2><span class="text-green">Cen</span>tres d'intérêt</h2>
+    {{#each resume.interests}}
+    <div class="item">
+      {{#if name}}
+      <div class="name">
+        {{name}}
+      </div>
+      {{/if}}
+      {{#if keywords.length}}
+      <ul class="keywords">
+        {{#each keywords}}
+        <li>{{.}}</li>
+        {{/each}}
+      </ul>
+      {{/if}}
+    </div>
+    {{/each}}
+  </section>
+  {{/if}}
+
+  {{#if resume.references.length}}
+  <section id="references">
+    <h2>References</h2>
+    {{#each resume.references}}
+    <div class="item">
+      {{#if reference}}
+      <blockquote class="reference">
+        {{reference}}
+      </blockquote>
+      {{/if}}
+      {{#if name}}
+      <div class="name">
+        — {{name}}
+      </div>
+      {{/if}}
+    </div>
+    {{/each}}
+  </section>
+  {{/if}}
+
+  </div>
+
+  <script>
+    console.log('Theme made with 💕 using JSON Resume and Handlebars!\nhttps://github.com/jsonresume/jsonresume-theme-class')
+  </script>
+  </body>
+</html>

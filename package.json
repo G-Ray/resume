@@ -1,0 +1,19 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "html": "resumed render -o cv.html",
+    "pdf": "node ./exportToPdf.js -o cv.pdf",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jsonresume/jsonresume-theme-class": "file:jsonresume-theme-class",
+    "puppeteer": "^21.3.6",
+    "resumed": "^3.0.1"
+  }
+}
