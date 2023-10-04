@@ -12,7 +12,7 @@ const page = await browser.newPage();
 
 await page.setContent(html, { waitUntil: "networkidle0" });
 await page.pdf({
-  path: "resume.pdf",
+  path: "cv.pdf",
   format: "a4",
   printBackground: true,
   margin: { top: 16, right: 16, bottom: 16, left: 16 },

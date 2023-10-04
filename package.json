@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "html": "resumed render -o cv.html",
-    "pdf": "node ./exportToPdf.js -o cv.pdf",
+    "pdf": "node ./exportToPdf.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
