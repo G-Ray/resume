@@ -1,8 +1,8 @@
 # My resume in french 🇫🇷
 
-[HTML](https://www.gbonneville.fr/resume.html)
+[HTML](https://www.gbonneville.fr/resume/cv.html)
 
-[PDF](https://www.gbonneville.fr/)
+[PDF](https://www.gbonneville.fr/resume/cv.pdf)
 
 ## Export
 ```sh
