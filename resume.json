@@ -34,16 +34,16 @@
       "location": "Paris, FR",
       "startDate": "2023-03-01",
       "url": "https://www.pikatorrent.com/",
-      "position": "Développeur",
+      "position": "Créateur et développeur principal",
       "summary": "Application open source pour mobile & desktop de partage de fichiers via le protocol BitTorrent.",
       "highlights": [
-        "Création d'un binding C/C++ Node.js et React Native pour libtransmission.",
-        "Mise en place de tests, intégration et déploiement continue sur GitHub Actions",
-        "Stack expo + tamagui pour cibler le web et mobile natif, et Electron pour le desktop",
+        "Développement d'un binding C/C++ Node.js et React Native pour libtransmission.",
+        "Mise en place de tests, intégration et déploiement continue (CI/CD) avec GitHub Actions.",
+        "Developpement avec expo + tamagui pour cibler le web et mobile natif, et Electron pour le desktop.",
         "Utilisation de Websocket et WebRTC pour lier l'application mobile & desktop.",
         "Publication régulière de nouvelles version sur les canaux de distributions: Google Play Store, Microsoft Store, Flathub.org...",
-        "Communication sur hackernews, et modifications apportées en fonction des retours utilisateurs.",
-        "Construction d'une communauté d'utilisateurs sur Discord."
+        "Communication sur hackernews, intégration de \"deep links\" pour faire croitre l'application, modifications apportées en fonction des retours utilisateurs.",
+        "Construction d'une communauté d'utilisateurs sur Discord, et contributions extérieures pour les traductions."
       ]
     },
     {
@@ -51,17 +51,18 @@
       "iconUrl": "https://www.dataway.ai/favicon.ico",
       "location": "Paris, FR",
       "description": "Projet de création d'entreprise avec un associé",
-      "position": "Associé développeur",
+      "position": "CTO associé",
       "url": "https://www.dataway.ai",
       "startDate": "2019-12-01",
       "endDate": "2023-02-15",
-      "summary": "Développement d'une plateforme ERP en SASS. Arrêt du projet en février 2023.",
+      "summary": "Développement d'une plateforme ERP en SASS. Avec un associé commercial. Arrêt du projet en février 2023.",
       "highlights": [
         "Choix de technologies pour conserver une indépendance et autoriser des déploiements on-premise.",
         "Architecture et développement de la plateforme sur stack Express.js/MongoDB/React.js/Python/Elasticsearch.",
         "Développement d'une application complémentaire avec expo/react-native.",
         "Mise en place et développement de tests end-to-end avec Cypress.",
-        "Gestion d'un cluster Kubernetes et déploiement des services en SASS: gestion de sous-domaines, certificats, séparation des données clients..."
+        "Gestion d'un cluster Kubernetes et déploiement des services en SASS: gestion de sous-domaines, certificats, séparation des données clients...",
+        "Mise à contribution d'un développeur junior."
       ]
     },
     {
@@ -130,7 +131,7 @@
       "institution": "Ecole d'Ingénieur Denis Diderot (EIDD)",
       "iconUrl": "https://u-paris.fr/eidd/wp-content/uploads/sites/26/2021/07/Universite_Paris_Favicon.png",
       "url": "https://u-paris.fr/eidd",
-      "area": "Informatique, Spécialité Systèmes informatiques embarqués",
+      "area": "Informatique, spécialité systèmes embarqués",
       "studyType": "Diplôme d'ingénieur",
       "startDate": "2013-09-01",
       "endDate": "2016-09-01"
