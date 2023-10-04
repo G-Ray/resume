@@ -162,6 +162,9 @@ header h2 {
 .split {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 32px;
+  row-gap: 8px;
 }
 
 .split strong {
@@ -172,15 +175,10 @@ header h2 {
 .email,
 .phone {
   margin-bottom: 10px;
-  width: 50%;
 }
 
 #profiles {
   overflow: hidden;
-}
-
-#profiles .item {
-  width: 50%;
 }
 
 .username{
@@ -195,7 +193,6 @@ header h2 {
 .qualification,
 .area {
   margin-bottom: 10px;
-  width: 30%;
 }
 
 .courses {
@@ -246,12 +243,6 @@ header h2 {
 
 #skills {
   overflow: hidden;
-}
-
-#languages .item,
-#interests .item,
-#skills .item {
-  width: 50%;
 }
 
 #references,
