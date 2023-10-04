@@ -40,6 +40,9 @@
   {{#if label}}
   <h2>{{label}}</h2>
   {{/if}}
+  {{#if location.city}}
+  <h2>{{location.city}}{{#if location.city}}, {{location.region}}{{/if}}</h2>
+  {{/if}}
   </header>
 
   <div id="content" class="container">
