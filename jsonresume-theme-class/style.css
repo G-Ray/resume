@@ -208,8 +208,14 @@ header h2 {
 
 #work,
 #volunteer,
-#projects {
+#projects,
+#education {
   padding-bottom: 5px;
+  border-bottom: 1px var(--seperator-color) solid;
+}
+
+#skills,
+#languages {
   border-bottom: 1px var(--seperator-color) solid;
 }
 
