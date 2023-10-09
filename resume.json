@@ -37,7 +37,7 @@
       "position": "Créateur et développeur principal",
       "summary": "Application open source pour mobile & desktop de partage de fichiers via le protocol BitTorrent.",
       "highlights": [
-        "Développement d'un binding C/C++ Node.js et React Native pour libtransmission.",
+        "Node.js, React Native, binding C/C++ pour libtransmission.",
         "Mise en place de tests, intégration et déploiement continue (CI/CD) avec GitHub Actions.",
         "Developpement avec expo + tamagui pour cibler le web et mobile natif, et Electron pour le desktop.",
         "Utilisation de Websocket et WebRTC pour lier l'application mobile & desktop.",
@@ -57,8 +57,8 @@
       "endDate": "2023-02-15",
       "summary": "Développement d'une plateforme ERP en SASS. Avec un associé commercial. Arrêt du projet en février 2023.",
       "highlights": [
+        "Architecture et développement de la plateforme avec Express.js/MongoDB/React.js/Python/Elasticsearch.",
         "Choix de technologies pour conserver une indépendance et autoriser des déploiements on-premise.",
-        "Architecture et développement de la plateforme sur stack Express.js/MongoDB/React.js/Python/Elasticsearch.",
         "Développement d'une application complémentaire avec expo/react-native.",
         "Mise en place et développement de tests end-to-end avec Cypress.",
         "Gestion d'un cluster Kubernetes et déploiement des services en SASS: gestion de sous-domaines, certificats, séparation des données clients...",
@@ -97,6 +97,7 @@
       "endDate": "2018-03-01",
       "summary": "Développement fullstack, avec express et Angular.",
       "highlights": [
+        "Node.js/Express.js/Angular/MongoDB/ElasticSearch/CassandraDB",
         "Design et développement d'APIs avec Express.js.",
         "Participation à la migration de Angular 1 vers Angular 2+ en TypeScript, et refactorisation du code.",
         "Proposition et implémentations de schémas de données dans MongoDB, ElasticSearch et CassandraDB.",
