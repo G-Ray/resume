@@ -47,12 +47,12 @@
       ]
     },
     {
-      "name": "Dataway",
-      "iconUrl": "https://www.dataway.ai/favicon.ico",
+      "name": "Projet de plateforme CRM",
+      "iconUrl": "",
       "location": "Paris, FR",
       "description": "Projet de création d'entreprise avec un associé",
       "position": "CTO associé",
-      "url": "https://www.dataway.ai",
+      "url": "",
       "startDate": "2019-12-01",
       "endDate": "2023-02-15",
       "summary": "Développement d'une plateforme CRM en SASS. Avec un associé commercial. Arrêt du projet en février 2023.",
