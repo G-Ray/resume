@@ -55,7 +55,7 @@
       "url": "https://www.dataway.ai",
       "startDate": "2019-12-01",
       "endDate": "2023-02-15",
-      "summary": "Développement d'une plateforme ERP en SASS. Avec un associé commercial. Arrêt du projet en février 2023.",
+      "summary": "Développement d'une plateforme CRM en SASS. Avec un associé commercial. Arrêt du projet en février 2023.",
       "highlights": [
         "Architecture et développement de la plateforme avec Express.js/MongoDB/React.js/Python/Elasticsearch.",
         "Choix de technologies pour conserver une indépendance et autoriser des déploiements on-premise.",
