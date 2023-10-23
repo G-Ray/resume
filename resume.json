@@ -6,7 +6,7 @@
     "image": "",
     "email": "geoffrey.bonneville@gmail.com",
     "phone": "+33 6 01 78 38 88",
-    "summary": "Ingénieur logiciel avec 7 ans d'expérience. Je travaille sur des technologies Fullstack JS. J'utilise principalement Node.js, React.js, React Native, et Electron. Je suis persévérant et créatif pour trouver des solutions techniques, et n'hésite pas à utiliser des technologies bas niveau lorsque la performance est une priorité. Je contribue à des projets open source, et développe PikaTorrent, un logiciel de partage de fichiers en peer-to-peer.",
+    "summary": "Ingénieur logiciel avec 7 ans d'expérience. Je travaille sur des technologies Fullstack JS. J'utilise principalement Node.js, React.js, React Native, et Electron. Je suis persévérant et créatif pour trouver des solutions techniques, et n'hésite pas à utiliser des technologies bas niveau lorsque la performance est une priorité. Je contribue à des projets open source, et développe PikaTorrent, une application de partage de fichiers en peer-to-peer.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -61,7 +61,8 @@
             "React Native",
             "Node.js",
             "Next.js",
-            "Electron"
+            "Electron",
+            "Redux"
           ]
         },
         {
@@ -169,7 +170,7 @@
       "endDate": "2021-10-28",
       "summary": "Développement d'une application de sécurisation et décentralisation des données personnelles (Masq). + Qwant Search & Maps.",
       "highlights": [
-        "Mise en place de l'architecture et prise de responsabilités sur l'application web en React.js.",
+        "Mise en place de l'architecture et prise de responsabilités sur l'application web en React.js et Redux.",
         "Propositions et utilisation de technologies peer-to-peer via WebRTC pour établir des communications en peer-to-peer entre appareils.",
         "Mise en place et développement de tests par snapshots avec Jest.",
         "Participation aux code reviews et pair programming.",
