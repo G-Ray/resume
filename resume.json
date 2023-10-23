@@ -6,7 +6,7 @@
     "image": "",
     "email": "geoffrey.bonneville@gmail.com",
     "phone": "+33 6 01 78 38 88",
-    "summary": "Ingénieur logiciel avec 7 ans d'expérience. Je travaille sur des technologies Fullstack JS. J'utilise principalement Node.js, React.js, React Native, et Electron. Je suis persévérant et créatif pour trouver des solutions technique, et n'hésite pas à utiliser des technologies bas niveau lorsque la performance est une priorité. Je contribue à des projets open source, et développe PikaTorrent, un logiciel de partage de fichiers en peer-to-peer.",
+    "summary": "Ingénieur logiciel avec 7 ans d'expérience. Je travaille sur des technologies Fullstack JS. J'utilise principalement Node.js, React.js, React Native, et Electron. Je suis persévérant et créatif pour trouver des solutions techniques, et n'hésite pas à utiliser des technologies bas niveau lorsque la performance est une priorité. Je contribue à des projets open source, et développe PikaTorrent, un logiciel de partage de fichiers en peer-to-peer.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -174,9 +174,9 @@
         "Mise en place et développement de tests par snapshots avec Jest.",
         "Participation aux code reviews et pair programming.",
         "Implémentation from scratch en CSS/SASS des designs fournis par l'équipe en charge des produits.",
+        "Mise en place d'outils d'amélioration du code: linters de code et formatters (eslint/prettier).",
         "Qwant Maps: participation à la refonte de l'interface en React.js.",
         "Qwant Search: développement d'un microservice en Rust performant et léger pour categoriser des sites web. Développement en TTD (≃ 1mois).",
-        "Mise en place d'outils d'amélioration du code: linters de code et formatters (eslint/prettier).",
         "Participation aux sprint pokers."
       ],
       "skills": [
@@ -341,13 +341,13 @@
   ],
   "skills": [
     {
-      "name": "Fonctionnels",
+      "name": "Fonctionnelles",
       "keywords": [
         "Developpement Fullstack (Frontend & Backend)",
-        "Conception et modélisation de logiciel",
+        "Conception et modélisation de logiciels",
         "Développement sur le modèle MVC",
-        "Rédaction de documentation",
         "Mise en production",
+        "Rédaction de documentation",
         "Sprint pokers"
       ]
     },
