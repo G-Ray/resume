@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Geoffrey Bonneville",
-    "label": "Ingénieur Freelance js / node / react / react-native",
+    "label": "Lead dev Fullstack JS",
     "image": "",
     "email": "geoffrey.bonneville@gmail.com",
     "phone": "+33 6 01 78 38 88",
-    "summary": "Ingénieur logiciel avec 7 ans d'expérience. Je travaille avec Node.js, React.js, React Native, Electron. Je suis efficace pour trouver des solutions technique, et n'hésite pas à utiliser des technologies bas niveau lorsque la performance est une priorité.",
+    "summary": "Ingénieur logiciel avec 7 ans d'expérience. Je travaille sur des technologies Fullstack JS. J'utilise principalement Node.js, React.js, React Native, et Electron. Je suis persévérant et créatif pour trouver des solutions technique, et n'hésite pas à utiliser des technologies bas niveau lorsque la performance est une priorité. Je contribue à des projets open source, et développe PikaTorrent, un logiciel de partage de fichiers en peer-to-peer.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -33,17 +33,61 @@
       "iconUrl": "https://www.pikatorrent.com/favicon.ico",
       "location": "Paris, FR",
       "startDate": "2023-03-01",
-      "url": "https://www.pikatorrent.com/",
+      "url": "https://www.pikatorrent.com",
       "position": "Créateur et développeur principal",
-      "summary": "Application open source pour mobile & desktop de partage de fichiers via le protocol BitTorrent.",
+      "summary": "Application open source pour mobile, desktop et web de partage de fichiers en peer-to-peer.",
       "highlights": [
-        "Node.js, React Native, binding C/C++ pour libtransmission.",
-        "Mise en place de tests, intégration et déploiement continue (CI/CD) avec GitHub Actions.",
-        "Developpement avec expo + tamagui pour cibler le web et mobile natif, et Electron pour le desktop.",
-        "Utilisation de Websocket et WebRTC pour lier l'application mobile & desktop.",
-        "Publication régulière de nouvelles version sur les canaux de distributions: Google Play Store, Microsoft Store, Flathub.org...",
-        "Communication sur hackernews, intégration de \"deep links\" pour faire croitre l'application, modifications apportées en fonction des retours utilisateurs.",
-        "Construction d'une communauté d'utilisateurs sur Discord, et contributions extérieures pour les traductions."
+        "Développement de l'application web et desktop avec React.js et Electron.",
+        "Développement mobile avec React Native.",
+        "Développement backend Node.js et React Native en C/C++ pour libtransmission, une bibliothèque BitTorrent.",
+        "Partage de code entre les plateformes avec react-native-web.",
+        "Organisation de plusieurs projets dans un monorepo.",
+        "Possibilité de lier l'application mobile et desktop en peer-to-peer grâce à Websocket et WebRTC.",
+        "Définition et implémentation d'un protocole d'échanges de messages via WebRTC.",
+        "Publication sur différents app stores: Google Play Store, Microsoft Store, Flathub.org, et Github Releases.",
+        "Mise en place de tests d'intégration, et déploiement continue (CI/CD) avec GitHub Actions.",
+        "Rédaction de documentation technique et pour contribuer aux traductions.",
+        "Communication du projet sur Internet."
+      ],
+      "skills": [
+        {
+          "name": "Langages",
+          "keywords": ["TypeScript", "JavaScript", "C/C++", "Java"]
+        },
+        {
+          "name": "Frameworks & Bibliothèques",
+          "keywords": [
+            "React.js",
+            "React Native",
+            "Node.js",
+            "Next.js",
+            "Electron"
+          ]
+        },
+        {
+          "name": "Protocoles",
+          "keywords": ["WebRTC", "Websocket", "BitTorrent"]
+        },
+        {
+          "name": "Outils",
+          "keywords": [
+            "Git",
+            "Docker/Podman",
+            "Npm",
+            "Github actions",
+            "Github",
+            "cmake"
+          ]
+        },
+        {
+          "name": "Méthodologies",
+          "keywords": [
+            "Issues et milestones sur Github",
+            "Monorepo",
+            "Semver",
+            "Code reviews"
+          ]
+        }
       ]
     },
     {
@@ -55,14 +99,63 @@
       "url": "",
       "startDate": "2019-12-01",
       "endDate": "2023-02-15",
-      "summary": "Développement d'une plateforme CRM en SASS. Avec un associé commercial. Arrêt du projet en février 2023.",
+      "summary": "Développement d'une plateforme CRM en SAAS, avec un associé commercial.",
       "highlights": [
-        "Architecture et développement de la plateforme avec Express.js/MongoDB/React.js/Python/Elasticsearch.",
-        "Choix de technologies pour conserver une indépendance et autoriser des déploiements on-premise.",
-        "Développement d'une application complémentaire avec expo/react-native.",
-        "Mise en place et développement de tests end-to-end avec Cypress.",
-        "Gestion d'un cluster Kubernetes et déploiement des services en SASS: gestion de sous-domaines, certificats, séparation des données clients...",
-        "Mise à contribution d'un développeur junior."
+        "Architecture et développement de l'application fullstack avec Express.js, React.js, et MongoDB.",
+        "Création d'un moteur de recherche full text avec Elasticsearch.",
+        "Développement d'un microservice de parsing de documents en Python.",
+        "Développement d'une application mobile avec React Native.",
+        "Développement d'une extension Chrome/Firefox",
+        "Mise en place et développement de tests unitaires, fonctionnels, et d'intégration avec Cypress.",
+        "Création et publications d'images Docker.",
+        "Déploiement des services sur kubernetes.",
+        "Gestion d'un cluster Kubernetes et déploiement des services en SAAS: gestion de sous-domaines, certificats TLS (https), séparation des données clients...",
+        "Mise en place d'outils d'amélioration du code: linters de code et formatters (eslint/prettier).",
+        "Mise à contribution d'un développeur junior.",
+        "Sécurisation de données sensibles avec du chiffrement.",
+        "Création et déploiement de scripts de backups de données."
+      ],
+      "skills": [
+        {
+          "name": "Langages",
+          "keywords": ["TypeScript", "JavaScript", "Python"]
+        },
+        {
+          "name": "Frameworks & Bibliothèques",
+          "keywords": [
+            "React.js",
+            "React Native",
+            "Node.js",
+            "Next.js",
+            "Flask",
+            "Webpack"
+          ]
+        },
+        {
+          "name": "Protocoles",
+          "keywords": [
+            "HTTP",
+            "REST",
+            "MQTT"
+          ]
+        },
+        {
+          "name": "Outils",
+          "keywords": [
+            "Git",
+            "Docker/Podman",
+            "Kubernetes",
+            "Npm",
+            "Github actions",
+            "Postman",
+            "Github",
+            "RabbitMQ"
+          ]
+        },
+        {
+          "name": "Méthodologies",
+          "keywords": ["Issues sur Github", "Monorepo", "Code reviews"]
+        }
       ]
     },
     {
@@ -74,16 +167,42 @@
       "url": "https://www.qwant.com",
       "startDate": "2018-03-01",
       "endDate": "2021-10-28",
-      "summary": "R&D sur Masq, projet de décentralisation et sécurisation des données personnelles + Qwant Search & Maps.",
+      "summary": "Développement d'une application de sécurisation et décentralisation des données personnelles (Masq). + Qwant Search & Maps.",
       "highlights": [
-        "Propositions et utilisation de technologies p2p via WebRTC pour établir des communication en peer-to-peer entre appareils.",
-        "Mise en place de l'architecture et prise de responsabilités sur l'application web.",
-        "Mise en place de linters de code, eslint/prettier pour les différents repos.",
+        "Mise en place de l'architecture et prise de responsabilités sur l'application web en React.js.",
+        "Propositions et utilisation de technologies peer-to-peer via WebRTC pour établir des communications en peer-to-peer entre appareils.",
         "Mise en place et développement de tests par snapshots avec Jest.",
         "Participation aux code reviews et pair programming.",
-        "Implémentation from scratch en SASS des designs fournis par l'équipe en charge des produits.",
-        "Qwant Maps: participation à la refonte de l'interface en React.js, participation à des scrum poker.",
-        "Qwant Search: développement d'un microservice en Rust performant et léger pour categoriser des sites web. Développement en TTD (≃ 1mois)."
+        "Implémentation from scratch en CSS/SASS des designs fournis par l'équipe en charge des produits.",
+        "Qwant Maps: participation à la refonte de l'interface en React.js.",
+        "Qwant Search: développement d'un microservice en Rust performant et léger pour categoriser des sites web. Développement en TTD (≃ 1mois).",
+        "Mise en place d'outils d'amélioration du code: linters de code et formatters (eslint/prettier).",
+        "Participation aux sprint pokers."
+      ],
+      "skills": [
+        {
+          "name": "Langages",
+          "keywords": ["JavaScript", "Rust"]
+        },
+        {
+          "name": "Frameworks & Bibliothèques",
+          "keywords": ["React.js", "React Native", "Node.js", "Webpack", "Nest.js"]
+        },
+        {
+          "name": "Outils",
+          "keywords": ["Git", "Github", "Npm", "JIRA", "Docker / Podman"]
+        },
+        {
+          "name": "Méthodologies",
+          "keywords": [
+            "Agile / SCRUM",
+            "Sprint pokers",
+            "Code reviews",
+            "Test Driven Development (TDD)",
+            "Pull requests",
+            "Peer programming"
+          ]
+        }
       ]
     },
     {
@@ -95,13 +214,55 @@
       "url": "https://www.getquanty.com",
       "startDate": "2016-09-01",
       "endDate": "2018-03-01",
-      "summary": "Développement fullstack, avec express et Angular.",
+      "summary": "Développement fullstack avec Express et Angular.",
       "highlights": [
-        "Node.js/Express.js/Angular/MongoDB/ElasticSearch/CassandraDB",
-        "Design et développement d'APIs avec Express.js.",
-        "Participation à la migration de Angular 1 vers Angular 2+ en TypeScript, et refactorisation du code.",
+        "Maintenance et évolution de la plateforme web fullstack avec Node.js, Express.js, Angular, et MongoDB.",
+        "Développement d'un moteur de recherche avec ElasticSearch.",
+        "Architecture, développement, et migration de données vers Apache Cassandra.",
+        "Documentation des APIs avec Swagger (OpenAPI).",
+        "Participation à la migration de Angular 1 vers Angular 2+ en TypeScript, et refactorisations du code.",
         "Proposition et implémentations de schémas de données dans MongoDB, ElasticSearch et CassandraDB.",
-        "Participation à la création de tests E2E pour stabiliser la plateforme, et amélioration de la CI en parallélisant les tests."
+        "Participation à la création de tests E2E pour stabiliser la plateforme.",
+        "Amélioration des performances de la CI en parallélisant les tests.",
+        "Mise en place d'outils d'amélioration du code: linters de code et formatters (eslint/prettier).",
+        "Participation aux sprint pokers."
+      ],
+      "skills": [
+        {
+          "name": "Langages",
+          "keywords": ["JavaScript", "TypeScript"]
+        },
+        {
+          "name": "Frameworks & Bibliothèques",
+          "keywords": [
+            "AngularJS/Angular",
+            "Express.js",
+            "Node.js",
+            "Webpack",
+            "Protractor"
+          ]
+        },
+        {
+          "name": "Protocoles",
+          "keywords": [
+            "HTTP",
+            "REST",
+            "gRPC"
+          ]
+        },
+        {
+          "name": "Outils",
+          "keywords": ["Git", "JIRA", "Bitbucket", "Npm", "Docker / Podman"]
+        },
+        {
+          "name": "Méthodologies",
+          "keywords": [
+            "Agile / SCRUM",
+            "Sprint pokers",
+            "Pull requests",
+            "Code reviews"
+          ]
+        }
       ]
     },
     {
@@ -113,20 +274,42 @@
       "url": "https://www.smile.eu",
       "startDate": "2016-08-31",
       "endDate": "2016-03-01",
-      "summary": "Développement de PoC avec un noyau Linux temps réel sur Android, sur plateforme embarquée ARM.",
+      "summary": "Développement de PoCs avec un noyau Linux temps réel sur Android, sur plateforme embarquée ARM.",
       "highlights": [
         "Ajout du support d'interfaces industrielles(I2C, GPIO, etc...) et d'un kernel temps-réel (Xenomai) dans Android.",
-        "Réalisation de benchmarks entre OpenPOWERLINK, sans, et avec RTnet.",
-        "Modification du code source d'Android (C/Java) pour étendre les fonctionnalités. Intégration de la bibliothèque glibc.",
-        "Acquisition d'expérience en C/Java/Android(AOSP), compilation de noyaux Linux en cross-compilation, modificaitons de modules et drivers.",
-        "Réalisation d'applications de tests avec Android 6.0 sur Beaglebone black. Avec un noyau linux 4.1 + Xenomai 3.x.",
+        "Réalisation de benchmarks entre OpenPOWERLINK, avec, et sans RTnet.",
+        "Extension des fonctionnalités d'Android (C/Java) en modifiant le SDK.",
+        "Intégration de la bibliothèque glibc dans Android.",
+        "Réalisation d'applications de tests temps-réel avec Android 6.0 sur Beaglebone black. Avec un noyau linux 4.1 + Xenomai 3.x.",
+        "Acquisition d'expérience en C/Java/Android(AOSP), compilation de noyaux Linux en cross-compilation, modifications de modules et drivers.",
         "Rédaction d'un article paru dans le magazine Open Silicium présentant une partie des travaux."
+      ],
+      "skills": [
+        {
+          "name": "Langages",
+          "keywords": ["C/C++", "JAVA", "Bash"]
+        },
+        {
+          "name": "Frameworks & Bibliothèques",
+          "keywords": ["AOSP (Android)", "Android SDK", "Xenomai"]
+        },
+        {
+          "name": "Outils",
+          "keywords": ["gcc"]
+        },
+        {
+          "name": "Méthodologies",
+          "keywords": [
+            "Agile / SCRUM",
+            "Sprint pokers",
+            "Pull requests",
+            "Code reviews"
+          ]
+        }
       ]
     }
   ],
-  "projects": [
-    
-  ],
+  "projects": [],
   "education": [
     {
       "institution": "Ecole d'Ingénieur Denis Diderot (EIDD)",
@@ -145,37 +328,129 @@
       "studyType": "DUT",
       "startDate": "2011-09-01",
       "endDate": "2013-06-01"
+    },
+    {
+      "institution": "Lycée Joseph Talma",
+      "iconUrl": "https://lyc-talma-brunoy.ac-versailles.fr/favicon.ico",
+      "url": "https://lyc-talma-brunoy.ac-versailles.fr/",
+      "area": "Baccalauréat S",
+      "studyType": "BAC S",
+      "startDate": "2011-07-01",
+      "endDate": "2008-09-01"
     }
   ],
   "skills": [
     {
-      "name": "Langages",
-      "keywords": ["JavaScript", "TypeScript", "HTML", "CSS", "C/C++", "Python"]
+      "name": "Fonctionnels",
+      "keywords": [
+        "Developpement Fullstack (Frontend & Backend)",
+        "Conception et modélisation de logiciel",
+        "Développement sur le modèle MVC",
+        "Rédaction de documentation",
+        "Mise en production",
+        "Sprint pokers"
+      ]
     },
     {
-      "name": "Web, desktop & mobile",
+      "name": "Langages",
       "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS/SASS",
+        "JSON/YAML",
+        "Python",
+        "C/C++",
+        "Rust",
+        "Bash"
+      ]
+    },
+    {
+      "name": "Frameworks & Bibliothèques",
+      "keywords": [
+        "Node.js",
         "React.js",
+        "Next.js",
         "React Native (+Expo)",
         "Electron",
+        "Express.js",
+        "Nest.js",
         "Webpack",
         "Metro bundler",
-        "Websocket",
-        "WebRTC"
+        "Qt",
+        "Protractor",
+        "Android SDK"
       ]
     },
     {
-      "name": "Backend",
+      "name": "Bases de données & moteurs de recherche",
       "keywords": [
-        "Express.js",
         "MongoDB",
-        "Elasticsearch",
-        "Apache Cassandra"
+        "PostgreSQL",
+        "MariaDB",
+        "Apache Cassandra",
+        "Elasticsearch"
       ]
     },
     {
-      "name": "Admininistration & déploiement",
-      "keywords": ["Docker/Podman", "Kubernetes", "Linux", "CI/CD"]
+      "name": "Protocoles",
+      "keywords": [
+        "HTTP",
+        "REST",
+        "WebRTC",
+        "Websocket",
+        "BitTorrent",
+        "Hypercore",
+        "FTP",
+        "TCP/UDP",
+        "MQTT"
+      ]
+    },
+    {
+      "name": "IDEs & Editeurs",
+      "keywords": [
+        "Visual Studio Code",
+        "IntelliJ IDEA",
+        "Android Studio",
+        "Qt Creator",
+        "Eclipse",
+        "Vim/Neovim"
+      ]
+    },
+    {
+      "name": "Outils",
+      "keywords": [
+        "Git",
+        "Docker/Podman",
+        "Kubernetes",
+        "Npm/Yarn",
+        "Github actions",
+        "Travis CI",
+        "Cargo",
+        "Postman",
+        "JIRA",
+        "RabbitMQ",
+        "Github",
+        "Gitlab",
+        "Bitbucket"
+      ]
+    },
+    {
+      "name": "Systèmes",
+      "keywords": ["Linux (RHEL, Debian, Fedora)", "Windows", "Android"]
+    },
+    {
+      "name": "Méthodologies",
+      "keywords": [
+        "Kanbans (Jira, Github...)",
+        "Agile / Scrum",
+        "Sprint poker",
+        "Test Driven Development (TDD)",
+        "Revues de code",
+        "Semver",
+        "Monorepo",
+        "Peer programming"
+      ]
     }
   ],
   "languages": [

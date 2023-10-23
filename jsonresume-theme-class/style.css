@@ -145,6 +145,7 @@ header h2 {
   margin-bottom: 10px;
   border-bottom: 1px var(--seperator-color) solid;
 }
+
 #basics h3 {
   margin-bottom: 10px;
 }
@@ -203,21 +204,23 @@ header h2 {
   margin-top: 10px;
 }
 
-#work,
 #volunteer,
 #projects,
-#education {
-  padding-bottom: 5px;
-  border-bottom: 1px var(--seperator-color) solid;
-}
-
+#education,
 #skills,
-#languages {
+#languages,
+#interests {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px var(--seperator-color) solid;
 }
 
 #work .item {
   break-inside: unset;
+}
+
+#work #skills {
+  margin-top: 10px;
 }
 
 #work .item,
@@ -226,15 +229,12 @@ header h2 {
   margin: 25px 0;
 }
 
-#skills {
-  margin-bottom: 10px;
-  border-bottom: 1px var(--seperator-color) solid;
-  padding-bottom: 5px;
-}
-
-#skills .item,
 #languages .item {
   margin: 0 0 25px 0;
+}
+
+#skills .item{
+  margin: 0 0 8px 0;
 }
 
 #interests .item {
