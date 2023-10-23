@@ -101,7 +101,7 @@
       "endDate": "2023-02-15",
       "summary": "Développement d'une plateforme CRM en SAAS, avec un associé commercial.",
       "highlights": [
-        "Architecture et développement de l'application fullstack avec Express.js, React.js, et MongoDB.",
+        "Architecture et développement de l'application fullstack avec React.js, Express.js, et MongoDB.",
         "Création d'un moteur de recherche full text avec Elasticsearch.",
         "Développement d'un microservice de parsing de documents en Python.",
         "Développement d'une application mobile avec React Native.",
