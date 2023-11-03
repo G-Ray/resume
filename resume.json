@@ -63,7 +63,6 @@
             "Node.js",
             "Next.js",
             "Electron",
-            "Redux"
           ]
         },
         {
@@ -188,7 +187,7 @@
         },
         {
           "name": "Frameworks & Bibliothèques",
-          "keywords": ["React.js", "React Native", "Node.js", "Webpack", "Nest.js"]
+          "keywords": ["React.js", "React Native", "Node.js", "Webpack", "Nest.js", "Redux", "Jest"]
         },
         {
           "name": "Outils",
@@ -373,6 +372,7 @@
         "Node.js",
         "React.js",
         "Next.js",
+        "Redux",
         "React Native (+Expo)",
         "Electron",
         "Express.js",
@@ -381,7 +381,9 @@
         "Metro bundler",
         "Qt",
         "Protractor",
-        "Android SDK"
+        "Android SDK",
+        "Cypress",
+        "Jest"
       ]
     },
     {
