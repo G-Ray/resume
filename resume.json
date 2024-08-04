@@ -6,7 +6,7 @@
     "image": "",
     "email": "geoffrey.bonneville@gmail.com",
     "phone": "+33 6 01 78 38 88",
-    "summary": "Ingénieur logiciel avec 7 ans d'expérience. Je travaille sur des technologies Fullstack JS. J'utilise principalement Node.js, React.js, React Native, et Electron. Je suis persévérant et créatif pour trouver des solutions techniques, et n'hésite pas à utiliser des technologies bas niveau lorsque la performance est une priorité. Je contribue à des projets open source, et développe PikaTorrent, une application de partage de fichiers en peer-to-peer.",
+    "summary": "Ingénieur logiciel avec 8 ans d'expérience. Je travaille sur des technologies Fullstack JS. J'utilise principalement Node.js, React.js, React Native, et Electron. Je suis persévérant et créatif pour trouver des solutions techniques, et n'hésite pas à utiliser des technologies bas niveau lorsque la performance est une priorité. Je contribue à des projets open source, et développe PikaTorrent, une application de partage de fichiers en peer-to-peer.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -28,6 +28,59 @@
     ]
   },
   "work": [
+    {
+      "name": "XXII",
+      "iconUrl": "https://framerusercontent.com/images/sbcCiJ5DNzeKg9LAh3WdRqR80l8.png",
+      "location": "Paris, FR",
+      "startDate": "2024-01-22",
+      "url": "https://www.xxiiai.com/",
+      "position": "Développeur Typescript/Javascript freelance",
+      "summary": "Développement des applications web d'analyses de vidéos par IA.",
+      "highlights": [
+        "Développement de nouvelles fonctionnalités s'inscrivant dans la roadmap des produits.",
+        "Réalisation d'un PoC d'intégration d'APIs de LLM/VLM (IA) dans le cadre d'un hackaton.",
+        "Réduction de la dette technique: identifications de dettes, suppressions de code et conversions de modules JavaScript vers TypeScript.",
+        "Collaboration continue avec l'équipe produit pour améliorer l'UX et affiner des fonctionnalités.",
+        "Rédaction détaillée de conceptions techniques. Définition d'interfaces avec d'autres équipes. Création de tickets.",
+        "Participation aux ateliers de découpages, chiffrages, et aux réunions daily.",
+        "Débug et corrections des applications existantes."
+      ],
+      "skills": [
+        {
+          "name": "Langages",
+          "keywords": [
+            "TypeScript",
+            "JavaScript",
+            "CSS/SCSS",
+            "Yaml/JSON",
+            "Bash"
+          ]
+        },
+        {
+          "name": "Frameworks & Bibliothèques",
+          "keywords": [
+            "React.js",
+            "Next.js",
+            "Vite",
+            "Node.js",
+            "Express.js",
+            "Tailwind CSS"
+          ]
+        },
+        {
+          "name": "Protocoles",
+          "keywords": ["REST", "Websocket"]
+        },
+        {
+          "name": "Outils",
+          "keywords": ["Git", "Docker", "Yarn", "Gitlab", "Jira", "Kubernetes"]
+        },
+        {
+          "name": "Méthodologies",
+          "keywords": ["Agile", "Code reviews"]
+        }
+      ]
+    },
     {
       "name": "PikaTorrent",
       "iconUrl": "https://www.pikatorrent.com/favicon.ico",
@@ -62,7 +115,7 @@
             "Expo",
             "Node.js",
             "Next.js",
-            "Electron",
+            "Electron"
           ]
         },
         {
@@ -134,11 +187,7 @@
         },
         {
           "name": "Protocoles",
-          "keywords": [
-            "HTTP",
-            "REST",
-            "MQTT"
-          ]
+          "keywords": ["HTTP", "REST", "MQTT"]
         },
         {
           "name": "Outils",
@@ -187,7 +236,15 @@
         },
         {
           "name": "Frameworks & Bibliothèques",
-          "keywords": ["React.js", "React Native", "Node.js", "Webpack", "Nest.js", "Redux", "Jest"]
+          "keywords": [
+            "React.js",
+            "React Native",
+            "Node.js",
+            "Webpack",
+            "Nest.js",
+            "Redux",
+            "Jest"
+          ]
         },
         {
           "name": "Outils",
@@ -245,11 +302,7 @@
         },
         {
           "name": "Protocoles",
-          "keywords": [
-            "HTTP",
-            "REST",
-            "gRPC"
-          ]
+          "keywords": ["HTTP", "REST", "gRPC"]
         },
         {
           "name": "Outils",
