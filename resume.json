@@ -64,7 +64,8 @@
             "Vite",
             "Node.js",
             "Express.js",
-            "Tailwind CSS"
+            "Tailwind CSS",
+            "Antd"
           ]
         },
         {
