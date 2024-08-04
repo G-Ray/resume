@@ -74,7 +74,15 @@
         },
         {
           "name": "Outils",
-          "keywords": ["Git", "Docker", "Yarn", "Gitlab", "Jira", "Kubernetes"]
+          "keywords": [
+            "Git",
+            "Docker",
+            "Yarn",
+            "Gitlab",
+            "Jira",
+            "Storybook",
+            "Kubernetes"
+          ]
         },
         {
           "name": "Méthodologies",
