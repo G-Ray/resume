@@ -112,7 +112,34 @@
   </section>
   {{/resume.basics}}
 
-    {{#if resume.education.length}}
+  {{#if resume.skills.length}}
+  <section id="skills">
+    <h2><span class="text-purple">Com</span>pétences</h2>
+    {{#each resume.skills}}
+    <div class="item">
+      {{#if name}}
+        <div class="name">
+          <b>{{name}}:</b>
+          {{#if keywords.length}}
+          <span class="keywords">
+            {{#each keywords}}
+            {{.}}{{#unless @last}},{{/unless}}
+            {{/each}}
+          </span>
+          {{/if}}
+        </div>
+      {{/if}}
+      {{#if level}}
+      <div class="level">
+        <em>{{level}}</em>
+      </div>
+      {{/if}}
+    </div>
+    {{/each}}
+  </section>
+  {{/if}}
+
+  {{#if resume.education.length}}
   <section id="education">
     <h2><span class="text-red">Dip</span>lômes</h2>
     {{#each resume.education}}
@@ -176,79 +203,8 @@
     {{/each}}
   </section>
   {{/if}}
-  
-  {{#if resume.languages.length}}
-  <section id="languages">
-    <h2><span class="text-orange">Lan</span>gues</h2>
-    <div class="split">
-      {{#each resume.languages}}
-      <div class="item">
-        {{#if language}}
-        <div class="language">
-          {{language}}
-        </div>
-        {{/if}}
-        {{#if fluency}}
-        <div class="level">
-          <em>{{fluency}}</em>
-        </div>
-        {{/if}}
-      </div>
-      {{/each}}
-    </div>
-  </section>
-  {{/if}}
 
-  {{#if resume.interests.length}}
-  <section id="interests">
-    <h2><span class="text-green">Cen</span>tres d'intérêt</h2>
-    {{#each resume.interests}}
-    <div class="item">
-      {{#if name}}
-      <div class="name">
-        {{name}}
-      </div>
-      {{/if}}
-      {{#if keywords.length}}
-      <ul class="keywords">
-        {{#each keywords}}
-        <li>{{.}}</li>
-        {{/each}}
-      </ul>
-      {{/if}}
-    </div>
-    {{/each}}
-  </section>
-  {{/if}}
   
-  {{#if resume.skills.length}}
-  <section id="skills">
-    <h2><span class="text-purple">Com</span>pétences</h2>
-    {{#each resume.skills}}
-    <div class="item">
-      {{#if name}}
-        <div class="name">
-          <b>{{name}}:</b>
-          {{#if keywords.length}}
-          <span class="keywords">
-            {{#each keywords}}
-            {{.}}{{#unless @last}},{{/unless}}
-            {{/each}}
-          </span>
-          {{/if}}
-        </div>
-      {{/if}}
-      {{#if level}}
-      <div class="level">
-        <em>{{level}}</em>
-      </div>
-      {{/if}}
-    </div>
-    {{/each}}
-  </section>
-  {{/if}}
-  
-
   {{#if resume.work.length}}
   <section id="work">
     <h2><span class="text-pink">Exp</span>ériences</h2>
@@ -339,9 +295,9 @@
   </section>
   {{/if}}
 
-  {{#if resume.projects.length}}
+    {{#if resume.projects.length}}
   <section id="projects">
-    <h2><span class="text-mint">Pro</span>jets</h2>
+    <h2><span class="text-mint">Con</span>tributions opensource</h2>
     {{#each resume.projects}}
     <div class="item">
       {{#if name}}
@@ -391,6 +347,50 @@
       <ul class="highlights">
         {{#each highlights}}
         <li>{{{markdown .}}}</li>
+        {{/each}}
+      </ul>
+      {{/if}}
+    </div>
+    {{/each}}
+  </section>
+  {{/if}}
+
+  {{#if resume.languages.length}}
+  <section id="languages">
+    <h2><span class="text-orange">Lan</span>gues</h2>
+    <div class="split">
+      {{#each resume.languages}}
+      <div class="item">
+        {{#if language}}
+        <div class="language">
+          {{language}}
+        </div>
+        {{/if}}
+        {{#if fluency}}
+        <div class="level">
+          <em>{{fluency}}</em>
+        </div>
+        {{/if}}
+      </div>
+      {{/each}}
+    </div>
+  </section>
+  {{/if}}
+
+  {{#if resume.interests.length}}
+  <section id="interests">
+    <h2><span class="text-green">Cen</span>tres d'intérêt</h2>
+    {{#each resume.interests}}
+    <div class="item">
+      {{#if name}}
+      <div class="name">
+        {{name}}
+      </div>
+      {{/if}}
+      {{#if keywords.length}}
+      <ul class="keywords">
+        {{#each keywords}}
+        <li>{{.}}</li>
         {{/each}}
       </ul>
       {{/if}}

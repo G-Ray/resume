@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Geoffrey Bonneville",
-    "label": "Senior software engineer - Fullstack JS",
+    "label": "Senior software engineer - JavaScript Full Stack - Mobile",
     "image": "",
     "email": "geoffrey.bonneville@gmail.com",
     "phone": "+33 6 01 78 38 88",
-    "summary": "Ingénieur logiciel avec 8 ans d'expérience. Je travaille sur des technologies Fullstack JS. J'utilise principalement Node.js, React.js, React Native, et Electron. Je suis persévérant et créatif pour trouver des solutions techniques, et n'hésite pas à utiliser des technologies bas niveau lorsque la performance est une priorité. Je contribue à des projets open source, et développe PikaTorrent, une application de partage de fichiers en peer-to-peer.",
+    "summary": "Ingénieur logiciel avec 8 ans d'expérience. Je travaille sur des technologies Fullstack JS. J'utilise principalement Node.js, React.js, React Native, Electron, et Flutter. Je suis persévérant et créatif pour trouver des solutions techniques, et n'hésite pas à utiliser des technologies bas niveau lorsque la performance est une priorité. Je contribue à des projets open source, et développe PikaTorrent, une application de partage de fichiers en peer-to-peer.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,13 +29,79 @@
   },
   "work": [
     {
+      "name": "PikaTorrent",
+      "iconUrl": "https://www.pikatorrent.com/favicon.ico",
+      "location": "Paris, FR",
+      "startDate": "2023-03-01",
+      "url": "https://www.pikatorrent.com",
+      "position": "Créateur et développeur principal Full Stack / Devops",
+      "summary": "Application open source pour mobile, desktop et web de partage de fichiers en peer-to-peer.",
+      "highlights": [
+        "Développement de l'application web et desktop avec React.js et Electron.",
+        "Développement mobile avec React Native.",
+        "Développement backend Node.js et React Native en C/C++ pour libtransmission, une bibliothèque BitTorrent.",
+        "Ré-écriture du logiciel avec Flutter/Dart/C++, afin de simplifier le développement multi-plateforme.",
+        "Développement de plugins natifs (C++, Java) pour faire fonctionner la couche C++ sur mobile (Android et iOS)",
+        "Contributions à la bibliothèque C++ du projet open source Transmission (https://transmissionbt.com)",
+        "Organisation de sous-projets dans un monorepo.",
+        "Définition et implémentation d'un protocole d'échanges de messages en p2p via WebRTC et Websocket.",
+        "Publication sur des canaux de distributions: Google Play Store, Microsoft Store, Flathub.org, et Github Releases.",
+        "Mise en place de tests d'intégration, et déploiement continue (CI/CD) avec GitHub Actions.",
+        "Communication du projet sur Internet."
+      ],
+      "skills": [
+        {
+          "name": "Langages",
+          "keywords": ["TypeScript", "JavaScript", "Dart", "C/C++", "Java"]
+        },
+        {
+          "name": "Frameworks & Bibliothèques",
+          "keywords": [
+            "React.js",
+            "React Native",
+            "Expo",
+            "Node.js",
+            "Next.js",
+            "Electron",
+            "Flutter",
+            "Android SDK/NDK"
+          ]
+        },
+        {
+          "name": "Protocoles",
+          "keywords": ["BitTorrent", "WebRTC", "Websocket"]
+        },
+        {
+          "name": "Outils",
+          "keywords": [
+            "Git",
+            "Docker/Podman",
+            "Npm",
+            "Github actions",
+            "Github",
+            "cmake"
+          ]
+        },
+        {
+          "name": "Méthodologies",
+          "keywords": [
+            "Issues et milestones sur Github",
+            "Monorepo",
+            "Semver",
+            "Code reviews"
+          ]
+        }
+      ]
+    },
+    {
       "name": "XXII",
       "iconUrl": "https://framerusercontent.com/images/sbcCiJ5DNzeKg9LAh3WdRqR80l8.png",
       "location": "Paris, FR",
       "startDate": "2024-01-22",
+      "endDate": "2024-09-27",
       "url": "https://www.xxiiai.com/",
-      "position": "Développeur Typescript/Javascript freelance",
-      "summary": "Développement des applications web d'analyses de vidéos par IA.",
+      "position": "Développeur Full-Stack JS/TS, Node.js/React.js",
+      "summary": "Développement d'applications web d'analyses de vidéos par IA, dans une équipe de 4 développeurs, 2 POs et 1 designer.",
       "highlights": [
         "Développement de nouvelles fonctionnalités s'inscrivant dans la roadmap des produits.",
         "Réalisation d'un PoC d'intégration d'APIs de LLM/VLM (IA) dans le cadre d'un hackaton.",
@@ -91,78 +157,15 @@
       ]
     },
     {
-      "name": "PikaTorrent",
-      "iconUrl": "https://www.pikatorrent.com/favicon.ico",
-      "location": "Paris, FR",
-      "startDate": "2023-03-01",
-      "url": "https://www.pikatorrent.com",
-      "position": "Créateur et développeur principal",
-      "summary": "Application open source pour mobile, desktop et web de partage de fichiers en peer-to-peer.",
-      "highlights": [
-        "Développement de l'application web et desktop avec React.js et Electron.",
-        "Développement mobile avec React Native.",
-        "Développement backend Node.js et React Native en C/C++ pour libtransmission, une bibliothèque BitTorrent.",
-        "Partage de code entre les plateformes avec react-native-web.",
-        "Organisation de plusieurs projets dans un monorepo.",
-        "Possibilité de lier l'application mobile et desktop en peer-to-peer grâce à Websocket et WebRTC.",
-        "Définition et implémentation d'un protocole d'échanges de messages via WebRTC.",
-        "Publication sur différents app stores: Google Play Store, Microsoft Store, Flathub.org, et Github Releases.",
-        "Mise en place de tests d'intégration, et déploiement continue (CI/CD) avec GitHub Actions.",
-        "Rédaction de documentation technique et pour contribuer aux traductions.",
-        "Communication du projet sur Internet."
-      ],
-      "skills": [
-        {
-          "name": "Langages",
-          "keywords": ["TypeScript", "JavaScript", "C/C++", "Java"]
-        },
-        {
-          "name": "Frameworks & Bibliothèques",
-          "keywords": [
-            "React.js",
-            "React Native",
-            "Expo",
-            "Node.js",
-            "Next.js",
-            "Electron"
-          ]
-        },
-        {
-          "name": "Protocoles",
-          "keywords": ["WebRTC", "Websocket", "BitTorrent"]
-        },
-        {
-          "name": "Outils",
-          "keywords": [
-            "Git",
-            "Docker/Podman",
-            "Npm",
-            "Github actions",
-            "Github",
-            "cmake"
-          ]
-        },
-        {
-          "name": "Méthodologies",
-          "keywords": [
-            "Issues et milestones sur Github",
-            "Monorepo",
-            "Semver",
-            "Code reviews"
-          ]
-        }
-      ]
-    },
-    {
       "name": "Projet de plateforme CRM",
       "iconUrl": "",
       "location": "Paris, FR",
       "description": "Projet de création d'entreprise avec un associé",
-      "position": "CTO associé",
+      "position": "CTO et développeur principal",
       "url": "",
       "startDate": "2019-12-01",
       "endDate": "2023-02-15",
-      "summary": "Développement d'une plateforme CRM en SAAS, avec un associé commercial.",
+      "summary": "Développement d'une plateforme CRM \"from scratch\" en SAAS, avec un associé commercial.",
       "highlights": [
         "Architecture et développement de l'application fullstack avec React.js, Express.js, et MongoDB.",
         "Création d'un moteur de recherche full text avec Elasticsearch.",
@@ -222,11 +225,11 @@
       "iconUrl": "https://www.qwant.com/favicon.ico",
       "location": "Paris, FR",
       "description": "Ingénieur frontend",
-      "position": "Ingénieur frontend",
+      "position": "Développeur JavaScript/React.js",
       "url": "https://www.qwant.com",
       "startDate": "2018-03-01",
       "endDate": "2021-10-28",
-      "summary": "Développement d'une application de sécurisation et décentralisation des données personnelles (Masq). + Qwant Search & Maps.",
+      "summary": "Développement d'une application de sécurisation et décentralisation des données personnelles (Masq), dans une équipe de 3 développeurs et une équipe design produit. Puis Qwant Search & Qwant Maps",
       "highlights": [
         "Mise en place de l'architecture et prise de responsabilités sur l'application web en React.js et Redux.",
         "Propositions et utilisation de technologies peer-to-peer via WebRTC pour établir des communications en peer-to-peer entre appareils.",
@@ -281,7 +284,7 @@
       "url": "https://www.getquanty.com",
       "startDate": "2016-09-01",
       "endDate": "2018-03-01",
-      "summary": "Développement fullstack avec Express et Angular.",
+      "summary": "Développement fullstack d'un équivalent à Google Analytics orienté B2B, au sein d'une équipe de 4 développeurs, un data scientist, et un product owner.",
       "highlights": [
         "Maintenance et évolution de la plateforme web fullstack avec Node.js, Express.js, Angular, et MongoDB.",
         "Développement d'un moteur de recherche avec ElasticSearch.",
@@ -339,12 +342,13 @@
       "endDate": "2016-03-01",
       "summary": "Développement de PoCs avec un noyau Linux temps réel sur Android, sur plateforme embarquée ARM.",
       "highlights": [
-        "Ajout du support d'interfaces industrielles(I2C, GPIO, etc...) et d'un kernel temps-réel (Xenomai) dans Android.",
+        "Ajout du support d'interfaces industrielles(I2C, GPIO, etc...) et d'un kernel temps-réel (Xenomai) dans Android AOSP.",
         "Réalisation de benchmarks entre OpenPOWERLINK, avec, et sans RTnet.",
         "Extension des fonctionnalités d'Android (C/Java) en modifiant le SDK.",
         "Intégration de la bibliothèque glibc dans Android.",
         "Réalisation d'applications de tests temps-réel avec Android 6.0 sur Beaglebone black. Avec un noyau linux 4.1 + Xenomai 3.x.",
-        "Acquisition d'expérience en C/Java/Android(AOSP), compilation de noyaux Linux en cross-compilation, modifications de modules et drivers.",
+        "Développement dans la stack complète Android AOSP, en C et Java. (Services, JNI...)",
+        "Compilation de noyaux Linux en cross-compilation, modifications de modules et drivers.",
         "Rédaction d'un article paru dans le magazine Open Silicium présentant une partie des travaux."
       ],
       "skills": [
@@ -372,7 +376,39 @@
       ]
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "name": "Transmission",
+      "startDate": "2024",
+      "url": "https://github.com/transmission/transmission",
+      "description": "Ajout du support d'Android pour compiler libtransmission. Développement d'un job Github Actions pour vérifier la compilation dans la CI. Correction de bugs et documention."
+    },
+    {
+      "name": "random-access-idb",
+      "startDate": "2019",
+      "url": "https://github.com/G-Ray/random-access-idb/commit/747fc5f57e1406d4f238bbb3a23cbb5457152bff",
+      "description": "Correction d'un important souci de performance observé lors de l'usage avec le projet Qwant Masq."
+    },
+    {
+      "name": "signalhubws",
+      "startDate": "2018",
+      "url": "https://github.com/soyuka/signalhubws/pull/5",
+      "description": "Remplacement d'une bibliothèque pour utiliser des websockets non supportée par les version de Node.js >.10. Dans le cadre du projet Qwant Masq."
+    },
+    {
+      "name": "Popcorn Time",
+      "startDate": "2014",
+      "endDate": "2014",
+      "url": "https://web.archive.org/web/20210402042958/https://popcorntime.app/",
+      "description": "Développement d'une fonctionnalité de lecture de bande annonces de films. Développement en JavaScript avec node-webkit (équivalent Electron). Implémentation du lecteur qui ouvre une bande-annonce. Contribution pour des millions d'utilisateurs."
+    },
+    {
+      "name": "LineageOS (ex CyanogenMod), fork de Android AOSP.",
+      "startDate": "2013",
+      "link": "https://review.lineageos.org/c/LineageOS/android_device_lge_mako/+/21808",
+      "description": "Correction de la compilation du projet pour Google Nexus 4, dû à une bibliothèque manquante."
+    }
+  ],
   "education": [
     {
       "institution": "Ecole d'Ingénieur Denis Diderot (EIDD)",
@@ -407,11 +443,13 @@
       "name": "Fonctionnelles",
       "keywords": [
         "Developpement Fullstack (Frontend & Backend)",
-        "Conception et modélisation de logiciels",
-        "Développement sur le modèle MVC",
+        "Architecture logicielle (conception et modélisation, MVC, MVVM, MVW...)",
+        "microservices",
+        "Monorepo",
+        "Poker planning",
+        "Intégration continue",
         "Mise en production",
-        "Rédaction de documentation",
-        "Sprint pokers"
+        "Rédaction de documentation"
       ]
     },
     {
@@ -421,6 +459,7 @@
         "TypeScript",
         "HTML",
         "CSS/SASS",
+        "Dart",
         "JSON/YAML",
         "Python",
         "C/C++",
@@ -441,9 +480,10 @@
         "Nest.js",
         "Webpack",
         "Metro bundler",
+        "Flutter",
         "Qt",
         "Protractor",
-        "Android SDK",
+        "Android SDK/NDK",
         "Cypress",
         "Jest"
       ]
@@ -503,7 +543,7 @@
     },
     {
       "name": "Systèmes",
-      "keywords": ["Linux (RHEL, Debian, Fedora)", "Windows", "Android"]
+      "keywords": ["Linux (RHEL, Debian, Fedora)", "Windows", "Android AOSP"]
     },
     {
       "name": "Méthodologies",
